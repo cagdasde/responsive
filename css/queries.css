@@ -1,0 +1,98 @@
+/* Big tablet to 1200px (widths smaller taht the 1140px row) */
+@media only screen and (max-width: 1200px) {
+    .main1{
+        display: none;
+    }
+      h2{
+         width:auto;
+         height: auto;
+         margin-left: 250px;
+         text-align: center;
+         font-size: 25px;
+     }
+     .cat-show li{
+         width: 25%;
+     }
+     .parag{
+      width:auto;
+      height: auto;
+      margin-left: 250px;
+      text-align: center;
+      
+    
+}
+}
+
+/* Small tablet to big tablet: from 768px to 1023px */
+@media only screen and (max-width: 1023px) {
+    .main1{
+        display: none;
+    }
+      h2{
+         width:auto;
+         height: auto;
+         margin-left: 150px;
+         text-align: center;
+         font-size: 25px;
+     }
+     .cat-show li{
+         width: 33%;
+     }
+     .parag{
+      width:auto;
+      height: auto;
+      margin-left: 150px;
+      text-align: center;
+     }
+   
+}
+   
+
+
+
+/* Small phones to small tablets: from 481px to 767px */
+@media only screen and (max-width: 767px) 
+  {.main1{
+    display: none;
+}
+  h2{
+     width:auto;
+     height: auto;
+     margin-left: 75px;
+     text-align: center;
+     font-size: 25px;
+ }
+ .cat-show li{
+     width: 50%;
+ }
+ .parag{
+  width:auto;
+  height: auto;
+  margin-left: 75px;
+  text-align: center;
+  }
+  }
+/* Small phones: from 0 to 480px */
+@media only screen and (max-width: 480px) {
+  .main1{
+      display: none;
+  }
+    h2{
+       width:auto;
+       height: auto;
+       margin-left: 25px;
+       text-align: center;
+       font-size: 25px;
+   }
+   .cat-show li{
+       width: 100%;
+   }
+   .parag{
+    width:auto;
+    height: auto;
+    margin-left: 25px;
+    text-align: center;
+    
+}
+
+}
